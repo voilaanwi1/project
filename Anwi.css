@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent {
+    height: 100vh;
+    border: 10px solid black;
+    display: flex;
+
+    
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    background: rgb(85, 176, 204);
+align-self: flex-start;
+
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 49, 184);
+align-self: center;
+
+}
+.child3{
+    width: 200px;
+    height: 200px;
+    background: rgb(105, 102, 102);
+align-self: flex-end;
+}
+.child4{
+    width: 200px;
+    height: 200px;
+    background: rgb(241, 100, 100);
+    flex: 1;
+    
+
+
+}
